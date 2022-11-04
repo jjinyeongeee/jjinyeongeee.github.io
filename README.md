@@ -1,1 +1,0 @@
-# jjinyeongeee.github.io
