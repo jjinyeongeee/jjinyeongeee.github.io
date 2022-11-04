@@ -1,0 +1,17 @@
+.login {background: url(https://images.unsplash.com/photo-1617136881631-ff0a31d0ecf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1842&q=80) center no-repeat; background-size: cover; width: 100%; height: 100%; position: relative;}
+
+.login > div:first-child {position: absolute; top: 50%; transform: translateY(-50%); text-align: center; width: 50.4rem; margin: 0 auto; left: 0; right: 0;}
+
+.login-box {background: var(--white); border-radius: 2rem; width: 100%; overflow: hidden; margin-top: 7rem;}
+
+.login-form {padding: 7rem 0; width: 30.5rem; margin: 0 auto; display: flex; gap: 2rem; flex-direction: column; align-items: center;}
+
+.login-footer {position: absolute; bottom: 4rem; display: flex; align-items: center; flex-direction: column; width: 100%; gap: 3rem;}
+.login-footer h6 {color: var(--white);}
+
+@media screen and (max-width: 768px) {
+  .login > div:first-child {width: 80%;}
+  .login-box {margin-top: 2rem;}
+  .login-form {width: 80%; padding: 4rem 0;}
+  .login-footer {bottom: 2rem; gap: 1rem;}
+}

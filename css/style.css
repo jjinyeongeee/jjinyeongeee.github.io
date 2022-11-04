@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+
+}
+
+/* html {-webkit-touch-callout:none; -webkit-user-select:none; -webkit-tap-highlight-color:rgba(0, 0, 0, 0);} */
+html, body {
+  font-size: 10px;
+  width: 100%;
+  height: 100%;
+  /*padding-top: env(safe-area-inset-top);*/
+
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+  word-break: keep-all;
+}
+
+
+/* 기본세팅 */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  height: 100%;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  font-weight: 400;
+  color: var(--mono-900);
+  overscroll-behavior: contain;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--mono-900);
+  outline: 0;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  outline: 0;
+  word-break: keep-all;
+}
+
+/* 사이즈별 폰트 */
+@media screen and (min-width: 1001px) {
+  html, body {
+      font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  html, body {
+      font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  html, body {
+      font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  html, body {
+      font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  html, body {
+      font-size: 8px;
+  }
+}
+
+
+/* font */
+.black64 {font-size: 6.4rem; line-height: 9rem; font-weight: 900;}
+.black48 {font-size: 4.8rem; line-height: 7rem; font-weight: 900;}
+.black36 {font-size: 3.6rem; line-height: 6rem; font-weight: 900;}
+.black30 {font-size: 3rem; line-height: 5rem; font-weight: 900;}
+.black24 {font-size: 2.4rem; line-height: 3rem; font-weight: 900;}
+.black22 {font-size: 2.2rem; line-height: 3rem; font-weight: 900;}
+.black20 {font-size: 2rem; line-height: 3rem; font-weight: 900;}
+.black18 {font-size: 1.8rem; line-height: 3rem; font-weight: 900;}
+.black16 {font-size: 1.6rem; line-height: 3rem; font-weight: 900;}
+.black15 {font-size: 1.5rem; line-height: 3rem; font-weight: 900;}
+.black14 {font-size: 1.4rem; line-height: 3rem; font-weight: 900;}
+.black13 {font-size: 1.3rem; line-height: 2.5rem; font-weight: 900;}
+.black12 {font-size: 1.2rem; line-height: 2rem; font-weight: 900;}
+.black10 {font-size: 1rem; line-height: 2rem; font-weight: 900;}
+.black8 {font-size: .8rem; line-height: 2rem; font-weight: 900;}
+
+.bold64 {font-size: 6.4rem; line-height: 9rem; font-weight: 700;}
+.bold48 {font-size: 4.8rem; line-height: 7rem; font-weight: 700;}
+.bold36 {font-size: 3.6rem; line-height: 6rem; font-weight: 700;}
+.bold30 {font-size: 3rem; line-height: 5rem; font-weight: 700;}
+.bold24 {font-size: 2.4rem; line-height: 3rem; font-weight: 700;}
+.bold22 {font-size: 2.2rem; line-height: 3rem; font-weight: 700;}
+.bold20 {font-size: 2rem; line-height: 3rem; font-weight: 700;}
+.bold18 {font-size: 1.8rem; line-height: 3rem; font-weight: 700;}
+.bold16 {font-size: 1.6rem; line-height: 3rem; font-weight: 700;}
+.bold15 {font-size: 1.5rem; line-height: 3rem; font-weight: 700;}
+.bold14 {font-size: 1.4rem; line-height: 3rem; font-weight: 700;}
+.bold13 {font-size: 1.3rem; line-height: 2.5rem; font-weight: 700;}
+.bold12 {font-size: 1.2rem; line-height: 2rem; font-weight: 700;}
+.bold10 {font-size: 1rem; line-height: 2rem; font-weight: 700;}
+.bold8 {font-size: .8rem; line-height: 2rem; font-weight: 700;}
+
+.medium64 {font-size: 6.4rem; line-height: 9rem; font-weight: 500;}
+.medium48 {font-size: 4.8rem; line-height: 7rem; font-weight: 500;}
+.medium36 {font-size: 3.6rem; line-height: 6rem; font-weight: 500;}
+.medium30 {font-size: 3rem; line-height: 5rem; font-weight: 500;}
+.medium24 {font-size: 2.4rem; line-height: 3rem; font-weight: 500;}
+.medium22 {font-size: 2.2rem; line-height: 3rem; font-weight: 500;}
+.medium20 {font-size: 2rem; line-height: 3rem; font-weight: 500;}
+.medium18 {font-size: 1.8rem; line-height: 3rem; font-weight: 500;}
+.medium16 {font-size: 1.6rem; line-height: 3rem; font-weight: 500;}
+.medium15 {font-size: 1.5rem; line-height: 3rem; font-weight: 500;}
+.medium14 {font-size: 1.4rem; line-height: 3rem; font-weight: 500;}
+.medium13 {font-size: 1.3rem; line-height: 2.5rem; font-weight: 500;}
+.medium12 {font-size: 1.2rem; line-height: 2rem; font-weight: 500;}
+.medium10 {font-size: 1rem; line-height: 2rem; font-weight: 500;}
+.medium8 {font-size: .8rem; line-height: 2rem; font-weight: 500;}
+
+.regular64 {font-size: 6.4rem; line-height: 9rem; font-weight: 400;}
+.regular48 {font-size: 4.8rem; line-height: 7rem; font-weight: 400;}
+.regular36 {font-size: 3.6rem; line-height: 6rem; font-weight: 400;}
+.regular30 {font-size: 3rem; line-height: 5rem; font-weight: 400;}
+.regular24 {font-size: 2.4rem; line-height: 3rem; font-weight: 400;}
+.regular22 {font-size: 2.2rem; line-height: 3rem; font-weight: 400;}
+.regular20 {font-size: 2rem; line-height: 3rem; font-weight: 400;}
+.regular18 {font-size: 1.8rem; line-height: 3rem; font-weight: 400;}
+.regular16 {font-size: 1.6rem; line-height: 3rem; font-weight: 400;}
+.regular15 {font-size: 1.5rem; line-height: 3rem; font-weight: 400;}
+.regular14 {font-size: 1.4rem; line-height: 3rem; font-weight: 400;}
+.regular13 {font-size: 1.3rem; line-height: 2.5rem; font-weight: 400;}
+.regular12 {font-size: 1.2rem; line-height: 2rem; font-weight: 400;}
+.regular10 {font-size: 1rem; line-height: 2rem; font-weight: 400;}
+.regular8 {font-size: .8rem; line-height: 2rem; font-weight: 400;}
+
+.light64 {font-size: 6.4rem; line-height: 9rem; font-weight: 300;}
+.light48 {font-size: 4.8rem; line-height: 7rem; font-weight: 300;}
+.light36 {font-size: 3.6rem; line-height: 6rem; font-weight: 300;}
+.light30 {font-size: 3rem; line-height: 5rem; font-weight: 300;}
+.light24 {font-size: 2.4rem; line-height: 3rem; font-weight: 300;}
+.light22 {font-size: 2.2rem; line-height: 3rem; font-weight: 300;}
+.light20 {font-size: 2rem; line-height: 3rem; font-weight: 300;}
+.light18 {font-size: 1.8rem; line-height: 3rem; font-weight: 300;}
+.light16 {font-size: 1.6rem; line-height: 3rem; font-weight: 300;}
+.light15 {font-size: 1.5rem; line-height: 3rem; font-weight: 300;}
+.light14 {font-size: 1.4rem; line-height: 3rem; font-weight: 300;}
+.light13 {font-size: 1.3rem; line-height: 2.5rem; font-weight: 300;}
+.light12 {font-size: 1.2rem; line-height: 2rem; font-weight: 300;}
+.light10 {font-size: 1rem; line-height: 2rem; font-weight: 300;}
+.light8 {font-size: .8rem; line-height: 2rem; font-weight: 300;}
+
+/* color */
+.color-white {color: var(--white);}
+
+/* bg-color */
+.bg-white {background-color: var(--white);}
+.bg-grayBlue96 {background-color: var(--grayBlue96);}
+
+
+/* 공통 */
+#wrap {width: 100%; height: 100%;}
+.line2 {width: 100%; height: .2rem;}
+
+/* 아이콘 타이틀 */
+.icon-title {width: 100%; background-color: var(--grayBlue99); padding: 3rem; }
+.icon-title > div:first-child {display: flex; align-items: center; gap: 2rem;}
+.icon-title .icon {width: 4rem; height: 4rem; border-radius: .5rem; box-shadow: 0px 2px 5px rgba(38, 51, 77, 0.03); background-color: var(--white); padding: .6rem;}
+.icon-title h2 {color: var(--grayBlue70);}
+
+/* 인풋 스타일 */
+.input-text {width: 100%;}
+.input-text input {width: 100%; box-shadow: 0px 2px 5px rgba(38, 51, 77, 0.03); border-radius: 3rem; background-color: var(--white); border: 2px solid var(--grayBlue97); height: 5rem; font-size: 1.2rem; font-weight: 700; padding: 2.5rem; color: var(--grayBlue10);}
+.input-text input::placeholder { color: var(--grayBlue70);}
+
+/* 버튼 스타일 */
+button {width: auto; box-shadow: 0px 2px 5px rgba(38, 51, 77, 0.03); border: 0; display: flex; justify-content: center; align-items: center; border-width: .2rem; border-style: solid;}
+button.fill {width: 100%;}
+button.rounded {border-radius: 3rem;}
+button.rectangle {border-radius: .5rem;}
+button.large {padding: 1.5rem 3.5rem; font-size: 1.4rem; font-weight: 900;}
+button.default {padding: 1.5rem 3rem; font-size: 1.2rem; font-weight: 900;}
+button.small {padding: 1rem 1.5rem; font-size: 1.2rem; font-weight: 900;}
+button.extrasmall {padding: .5rem 1rem; font-size: 1.2rem; font-weight: 900;}
+
+button.iconDefault {height: auto; border-radius: 10rem; padding: 1rem; border: 0; background-color: white;}
+button.iconDefault img {width: 3rem;}
+button.iconLarge {height: auto; border-radius: 10rem; padding: 1.5rem; border: 0;background-color: white}
+button.iconLarge img {width: 3rem;}
+button.iconSmall {height: auto; border-radius: 10rem; padding: .6rem; border: 0;background-color: white}
+button.iconSmall img {width: 2.8rem;}
+button.iconExtrasmall {height: auto; border-radius: 10rem; padding: .3rem; border: 0;background-color: white}
+button.iconExtrasmall img {width: 2.4rem;}
+
+
+
+.group-button {display: flex;}
+.group-button.rectangle button:first-child {border-radius: .5rem 0 0 .5rem;}
+.group-button.rectangle button:last-child {border-radius: 0 .5rem .5rem 0;}
+.group-button button {border-left: 0;}
+.group-button button.white:first-child {border-left: .2rem solid var(--grayBlue97);}
+.group-button button.primary:first-child {border-left: .2rem solid var(--blue);}
+
+
+button.primary {border-color: var(--blue); background-color: var(--blue); color: var(--white);}
+button.white {border-color: var(--grayBlue97); background-color: var(--white); color: var(--grayBlue60);}
+
+
+/* 최고관리자 스타일 시작 */
+.super {background-color: var(--grayBlue98); padding: 4rem 6rem; display: flex; flex-direction: column; gap: 6rem;}
+.header {display: flex; gap: 6rem; align-items: center;}
+.header .menu {width: 32rem;}
+.header .menu h1 {display: flex; flex-direction: row; gap: 3rem; align-items: center; color: var(--grayBlue60);}
+.menu-wrap {position: absolute;}
+
+.gnb ul {display: flex; gap: 3rem;}
+.gnb ul a {font-size: 1.3rem; line-height: 2.5rem; font-weight: 700; color: var(--grayBlue60);}
+.gnb ul a.act,
+.gnb ul a:hover {color: var(--blue); font-weight: 900;}
+
+/* 최고관리자 스타일 종료 */
